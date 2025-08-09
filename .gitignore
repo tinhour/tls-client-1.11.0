@@ -1,0 +1,116 @@
+# Go相关文件
+# 编译的可执行文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/build/
+/dist/
+
+# Go工具链和安装包（本地安装的Go）
+/go/
+go*.tar.gz
+go*.zip
+
+# Go模块和依赖
+vendor/
+go.work*
+
+# Go测试和覆盖率文件
+*.test
+*.out
+*.prof
+coverage.txt
+coverage.html
+
+# Go二进制文件
+*.bin
+
+# Node.js相关文件
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.yarn-integrity
+
+# 编辑器和IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 操作系统文件
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python相关（如果有Python脚本）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+.env
+
+# 临时文件和缓存
+*.tmp
+*.temp
+.cache/
+.tmp/
+
+# 配置文件中的敏感信息
+config.local.*
+secrets.*
+
+# 测试覆盖率和报告
+coverage/
+.nyc_output/
+test-results/
+allure-results/
+
+# 构建产物和输出
+dist/
+out/
+target/
+
+# 文档构建
+docs/_build/
+site/
+
+# 已存在的规则（保留原有的）
+.idea
+example/Example
+venv
+cffi_dist/example_typescript/node_modules
+cffi_dist/example_typescript/build
+cffi_dist/example_typescript/package-lock.json
+cffi_dist/example_node/package-lock.json
+cffi_dist/example_node/node_modules
+/cffi_dist/dist/
+
+# 特定于此项目的大文件
+*.tar.gz
+*.zip
+
+# 备份文件
+*.bak
+*.backup
+*~

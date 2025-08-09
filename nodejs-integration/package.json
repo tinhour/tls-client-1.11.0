@@ -1,0 +1,34 @@
+{
+  "name": "tls-client-nodejs-wrapper",
+  "version": "1.11.0",
+  "description": "Node.js wrapper for TLS-Client CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build-go": "cd .. && make build",
+    "example": "node examples/basic-usage.js",
+    "example:basic": "node examples/basic-usage.js",
+    "example:config": "node examples/config-file-example.js",
+    "example:browsers": "node examples/browser-profiles-example.js",
+    "example:ja3": "node examples/ja3-fingerprint-example.js",
+    "examples": "npm run example:basic && npm run example:config && npm run example:browsers",
+    "examples:all": "npm run example:basic && npm run example:config && npm run example:browsers && npm run example:ja3"
+  },
+  "keywords": [
+    "tls",
+    "http",
+    "client",
+    "browser",
+    "fingerprint",
+    "proxy"
+  ],
+  "author": "TLS-Client CLI",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
