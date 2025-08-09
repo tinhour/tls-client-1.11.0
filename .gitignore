@@ -5,7 +5,6 @@
 *.dll
 *.so
 *.dylib
-/build/
 /dist/
 
 # Go工具链和安装包（本地安装的Go）
